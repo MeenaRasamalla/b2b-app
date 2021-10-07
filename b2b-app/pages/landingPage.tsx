@@ -23,8 +23,8 @@ export default function LandingPage() {
                     <p>Reduce your cash flow gap. Our lending solution provides you with credit to help finance your international trade, whether you are an importer, exporter or both.</p>
                 </div>
                 <div className="row">
-                    <button type="submit" className="btn btn-primary" onClick={() =>{ router.push('/feedback') }}>Request Invite</button>
-                    <button type="submit" className="btn btn-primary-outline" onClick={() =>router.push('account/login')}>sign In</button>
+                    <button type="submit" className="btn btn-primary" onClick={() =>{ router.push('/account/requestInvite') }}>Request Invite</button>
+                    <button type="submit" className="btn btn-primary-outline" onClick={() =>router.push('/account/login')}>sign In</button>
                 </div>
             </div>
         </form>
